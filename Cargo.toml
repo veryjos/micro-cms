@@ -1,0 +1,19 @@
+[package]
+name = "mini-cms"
+description = "a simple, in-memory, markdown-based CMS, powering https://blog.josbox.dev/"
+version = "0.1.0"
+authors = ["veryjos <downsider002@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+arrayvec = "0.4.10"
+clap = "3.0.0-beta.2"
+clap_derive = "3.0.0-beta.2"
+config = "0.9"
+rocket = "0.4.5"
+notify = "4.0.0"
+serde = { version = "1.0.89", features = ["derive"] }
+serde_plain = "0.3.0"
+serde_json = "1.0.0"
+toml = "0.5"
+walkdir = "2"
